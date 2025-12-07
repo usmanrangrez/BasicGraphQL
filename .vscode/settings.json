@@ -1,0 +1,13 @@
+{
+    // ✅ Windsurf ON
+    "editor.inlineSuggest.enabled": true,
+  
+    // ✅ Reduce suggestion noise
+    "editor.quickSuggestions": false,
+    "editor.suggestOnTriggerCharacters": false,
+  
+    // ✅ Prevent accidental accepts
+    "editor.acceptSuggestionOnCommitCharacter": false,
+    // "editor.acceptSuggestionOnEnter": "off"
+  }
+  
