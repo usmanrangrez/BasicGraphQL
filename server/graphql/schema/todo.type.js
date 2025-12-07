@@ -6,5 +6,9 @@ export default `
     userId: ID!
     user: User
   }
-
+    
+ type DeleteResponse {
+    success: Boolean!
+    message: String
+  }
 `;

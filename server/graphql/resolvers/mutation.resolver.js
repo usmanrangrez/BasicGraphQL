@@ -8,7 +8,10 @@ export default {
   updateTodo: (_, { id, ...rest }) =>
     todoService.updateTodo(id, rest),
 
- 
+  deleteTodo: async (_, { id }) => {
+    await todoService.deleteTodo(id);
+    return { success: true, message: "Deleted" };
+  },
 
   createUser: (_, args) => userService.createUser(args),
 };
